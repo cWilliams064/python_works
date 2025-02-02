@@ -17,7 +17,6 @@ guests.append('maria ridulph')
 
 guests.sort()
 
-
 invitation = f"{guests[0].title()}, you are invited to a dinner reservation hosted by Courtney Williams."
 print(invitation)
 
