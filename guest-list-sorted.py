@@ -9,7 +9,7 @@ print(invitation)
 invitation = f"{guests[2].title()}, you are invited to a dinner reservation hosted by Courtney Williams."
 print(invitation)
 
-print("I found a biger dinner table for more guests!")
+print("I found a biger dinner table for more guests.")
 
 guests.insert(0, 'marilyn monroe')
 guests.insert(1, 'joseph zarelli')
