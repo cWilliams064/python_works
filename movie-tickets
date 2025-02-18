@@ -19,4 +19,4 @@ else:
     
         total_price += price
 
-    print(f"Your total price is {total_price}")
+    print(f"Your total price is {total_price} dollars.")
