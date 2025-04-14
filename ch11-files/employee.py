@@ -1,5 +1,5 @@
 class Employee:
-  """Creating a employee and their yearly salary for a raise."""
+  """Represents an employee and handles salary raises."""
 
   def __init__(self, first_name, last_name, annual_salary):
     """Store employee information."""
@@ -7,10 +7,10 @@ class Employee:
     self.last_name = last_name
     self.annual_salary = annual_salary
 
-  def give_raise(self, raise_ammount=5000):
-    """Calcualate the employee salary after raise."""
-    self.annual_salary += raise_ammount
-    original_salary = self.annual_salary - raise_ammount
+  def give_raise(self, raise_amount=5000):
+    """Calculate the employee salary after raise."""
+    self.annual_salary += raise_amount
+    original_salary = self.annual_salary - raise_amount
     after_raise = (
       f"After a raise {self.first_name.title()} {self.last_name.title()}'s "
       f"salary increased from {original_salary} to {self.annual_salary}."
